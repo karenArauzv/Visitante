@@ -3,7 +3,6 @@ public class Visitante{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Capturando datos del visitante
         System.out.print("Ingrese el nombre del visitante: ");
         String nombre = scanner.nextLine();
 
@@ -20,7 +19,6 @@ public class Visitante{
         int hora = scanner.nextInt();
 
 
-        
         System.out.println("\nDatos del visitante:");
         System.out.println("Nombre completo: " + nombre + " " + apellido);
         System.out.println("Edad: " + edad + " años");
